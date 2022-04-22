@@ -30,6 +30,14 @@ public class ItemCalculate {
 		int mod = answer % 3;
 		System.out.println(mod);
 		
+		//cast
+		int price = 237;
+		float pointRate = 0.05f;
+		
+		float point = price * pointRate;
+		System.out.println(point);
+		System.out.println((int) point);
+		
 	}
 
 }

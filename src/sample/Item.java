@@ -21,6 +21,11 @@ public class Item {
 		System.out.println(price);
 		System.out.println(amount);
 		System.out.println(isSale);
+		
+		//税率
+		final float TAX_RATE = 0.1f;
+		
+		
 
 	}
 

@@ -38,6 +38,37 @@ public class ItemCalculate {
 		System.out.println(point);
 		System.out.println((int) point);
 		
+		String itemName = "コーヒー";
+		String message = itemName + "の価格は" + price + "円です";
+		System.out.println(message);
+
+		//単項演算
+		int amount = 5;
+		//１増える increment
+		amount++;
+		System.out.println(amount);
+		
+		//１減る decrement
+		amount--;
+		System.out.println(amount);
+
+
+		//複合演算
+		price = 110;
+		amount = 3;
+		
+//		price = price - 10;
+		price -= 10;
+		
+//		price = price * amount;
+		price *= amount;
+		
+		System.out.println(price);
+
+		message = itemName + "の価格は" + price + "円です。\n";
+		message += "購入しますか？";
+		System.out.println(message);
+				
 	}
 
 }

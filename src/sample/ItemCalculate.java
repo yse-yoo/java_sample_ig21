@@ -68,6 +68,18 @@ public class ItemCalculate {
 		message = itemName + "の価格は" + price + "円です。\n";
 		message += "購入しますか？";
 		System.out.println(message);
+		
+		//オーバーフロー
+		price = 100000;
+		amount = 100000;
+		long totalPrice = (long) price * (long) amount;
+		System.out.println(totalPrice);
+		
+		//
+		price = 100;
+		amount = 0;
+		float average = price / amount;
+		System.out.println(average);
 				
 	}
 

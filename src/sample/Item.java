@@ -11,6 +11,16 @@ public class Item {
 		int amount;
 		//セール中
 		boolean isSale;
+		
+		itemName = "コーヒー";
+		price = 120;
+		amount = 5;
+		isSale = true;
+		
+		System.out.println(itemName);
+		System.out.println(price);
+		System.out.println(amount);
+		System.out.println(isSale);
 
 	}
 

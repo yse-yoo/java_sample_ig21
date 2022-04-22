@@ -76,11 +76,65 @@ public class ItemCalculate {
 		System.out.println(totalPrice);
 		
 		//
+//		price = 100;
+//		amount = 0;
+//		float average = price / amount;
+//		System.out.println(average);
+		
+		//論理演算
+		boolean isMatch;
 		price = 100;
-		amount = 0;
-		float average = price / amount;
-		System.out.println(average);
-				
+
+		isMatch = (price == 100);
+		System.out.println(isMatch);
+		
+		isMatch = (price != 100);
+		System.out.println(isMatch);
+		
+		isMatch = (price >= 100);
+		System.out.println(isMatch);
+
+		isMatch = (price < 100);
+		System.out.println(isMatch);
+		
+
+		//同値
+		String str1 = "20";
+		String str2 = "20";
+		int number1 = 20;
+		int number2 = 30;
+		
+		isMatch = (str1 == str2);
+		System.out.println(isMatch);
+
+		isMatch = (number1 == number2);
+		System.out.println(isMatch);
+		
+		isMatch = (Integer.parseInt(str1) == number1);
+		System.out.println(isMatch);
+		
+		//三項演算
+		price = 250;
+		int money = 200;
+		
+		message = (money > price) ? "買えます" : "買えません";
+		System.out.println(message);
+		
+//		int city = "東京";
+		
+		
+		String character_name = "Tokyo";
+		String monster_name = "スライム";
+
+		int character_hp = 20;
+		int monster_hp = 5;
+		int damage = 10;
+
+		String battle_message = character_name + "のこうげき！";
+		String attack_message = (monster_hp > damage) ? "に" + damage + "のダメージ" : "はたおれた！";
+		battle_message += monster_name + attack_message;
+		System.out.println(battle_message);
+
 	}
 
 }

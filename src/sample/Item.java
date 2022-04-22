@@ -23,9 +23,10 @@ public class Item {
 		System.out.println(isSale);
 		
 		//税率
-		final float TAX_RATE = 0.1f;
-		
-		
+	    final float TAX_RATE = 0.1f;
+	    System.out.println(TAX_RATE);
+	    
+	    
 
 	}
 

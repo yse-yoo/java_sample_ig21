@@ -14,6 +14,13 @@ public class Drink {
 		numbers[1] = 32;
 		numbers[2] = 72;
 		System.out.println(Arrays.toString(numbers));
+		
+		int[] prices = { 350, 400, 300 };
+		System.out.println(prices[0]);
+		System.out.println(prices[1]);
+		System.out.println(prices[2]);
+		
+		
 	}
 
 }

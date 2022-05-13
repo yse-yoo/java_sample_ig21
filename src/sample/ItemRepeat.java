@@ -57,6 +57,40 @@ public class ItemRepeat {
 			}
 			currentNumber++;
 		}
+		
+		
+		//問題1
+		int sum = 0;
+		for (int j = 1; j <= 3000; j++) {
+			sum += j;
+		}
+		System.out.println(sum);
+		
+
+		//問題2
+		count = 0;
+		currentNumber = 1;
+		maxNumber = 1000;
+		while (currentNumber < maxNumber) {
+			//17の倍数だったらカウント
+			if (currentNumber % 17 == 0) {
+				count++;
+			}
+			currentNumber++;
+		}
+		System.out.println("17の倍数:" + count);
+		
+		//問題3
+		float money = 1000000;
+		float target = 2000000;
+		float interestRate = 0.0001f;
+		int year = 0;
+
+		while (money < target) {
+			money *= (1f + interestRate);
+			year++;
+		}
+		System.out.println(year + "年後に" + money);
 	}
 
 }

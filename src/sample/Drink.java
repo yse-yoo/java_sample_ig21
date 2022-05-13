@@ -1,6 +1,7 @@
 package sample;
 
 import java.util.Arrays;
+import java.util.Random;
 
 public class Drink {
 
@@ -16,11 +17,23 @@ public class Drink {
 		System.out.println(Arrays.toString(numbers));
 		
 		int[] prices = { 350, 400, 300 };
+		//1番目
 		System.out.println(prices[0]);
+		//2番目
 		System.out.println(prices[1]);
+		//3番目
 		System.out.println(prices[2]);
 		
+//		int[] prices2 = [350, 400, 300];
 		
+		//じゃんけん
+		Random rand = new Random();
+		int handIndex = rand.nextInt(3);
+		System.out.println(handIndex);
+		
+		String[] hands = { "グー", "チョキ", "パー" };
+		String pcHand = hands[handIndex];
+		System.out.println(pcHand);
 	}
 
 }

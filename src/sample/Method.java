@@ -11,7 +11,12 @@ public class Method {
 
 		//staticでないメソッドは直接実行できない
 //		answer = calculate2(-3f);
-//		System.out.println(answer);
+		
+		int totalPrice = calculateTotalPrice(100, 5);
+		System.out.println(totalPrice);
+		
+		
+		
 	}
 	
 	public static int calculateTotalPrice(int price, int amount) {

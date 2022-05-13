@@ -32,7 +32,26 @@ public class ItemRepeat {
 			System.out.println(string);
 		}
 		
+		//while
+		int i = 0;
+		while (i <= 10) {
+			System.out.println(i);
+			i++;
+		}
 		
+		//1 - 1000までの 7の倍数を５つ表示
+		int currentNumber = 1;
+		int maxNumber = 1000;
+		int count = 0;
+		int limit = 5;
+
+		while (currentNumber < maxNumber) {
+			count++;
+			//個数がリミットに達したら終了
+			if (count == limit) {
+				break;
+			}
+		}
 	}
 
 }

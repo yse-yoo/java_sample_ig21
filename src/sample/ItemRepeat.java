@@ -46,11 +46,16 @@ public class ItemRepeat {
 		int limit = 5;
 
 		while (currentNumber < maxNumber) {
-			count++;
+			//7の倍数だったらカウント
+			if (currentNumber % 7 == 0) {
+				System.out.println(currentNumber);
+				count++;
+			}
 			//個数がリミットに達したら終了
 			if (count == limit) {
 				break;
 			}
+			currentNumber++;
 		}
 	}
 

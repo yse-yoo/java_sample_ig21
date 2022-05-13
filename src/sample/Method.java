@@ -15,8 +15,16 @@ public class Method {
 		int totalPrice = calculateTotalPrice(100, 5);
 		System.out.println(totalPrice);
 		
-		
-		
+		greet("横浜　太郎");
+		greet("横浜　太郎", "雨");
+	}
+	
+	static void greet(String name) {
+		System.out.println(name + "さん、こんにちは");
+	}
+	
+	static void greet(String name, String weather) {
+		System.out.println(name + "さん。今日は" + weather + "です");
 	}
 	
 	public static int calculateTotalPrice(int price, int amount) {

@@ -3,6 +3,12 @@ package rpg;
 import java.util.Random;
 
 public class Character {
+	//初期化ブロック（インスタンス生成前）
+	{
+		System.out.println("初期化ブロック");
+		this.level = 1;
+	}
+
 	//コンストラクタ
 	public Character(String name, String job) {
 		//自分の親クラス（Objecgクラス）のコンストラクタを実行
@@ -23,6 +29,9 @@ public class Character {
 
 	//体力
 	public int hp;
+	
+	//レベル
+	public int level;
 
 
 	//インスタンスメソッド

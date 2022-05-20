@@ -11,6 +11,7 @@ public class App {
 		System.out.println(wizard.name);
 		System.out.println(wizard.job);
 		System.out.println(wizard.hp);
+		System.out.println(wizard.level);
 		
 		wizard.walk("left");
 		

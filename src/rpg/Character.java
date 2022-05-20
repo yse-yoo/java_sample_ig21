@@ -18,4 +18,10 @@ public class Character {
 		System.out.println(message);
 	}
 	
+	//話す
+	public void talk(Character character, String message) {
+		message = character.name + "!" + message;
+		System.out.println(message);
+	}
+	
 }

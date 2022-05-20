@@ -3,6 +3,17 @@ package rpg;
 import java.util.Random;
 
 public class Character {
+	//コンストラクタ
+	public Character(String name, String job) {
+		//自分の親クラス（Objecgクラス）のコンストラクタを実行
+		super();
+		System.out.println("キャラクタ生成");
+
+		this.name = name;
+		this.job = job;
+		this.hp = 50;
+	}
+
 	//フィールド
 	//キャラクター名
 	public String name;
@@ -12,6 +23,7 @@ public class Character {
 
 	//体力
 	public int hp;
+
 
 	//インスタンスメソッド
 	//歩く

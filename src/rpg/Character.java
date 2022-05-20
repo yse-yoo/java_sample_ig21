@@ -24,4 +24,11 @@ public class Character {
 		System.out.println(message);
 	}
 	
+	//攻撃する
+	public void attack(Character character) {
+		int damage = 1;
+		//相手のHPを減らす
+		character.hp -= damage;
+	}
+	
 }

@@ -83,7 +83,7 @@ public class ItemRepeat {
 		//問題3
 		float money = 1000000;
 		float target = 2000000;
-		float interestRate = 0.0001f;
+		float interestRate = 0.01f;
 		int year = 0;
 
 		while (money < target) {

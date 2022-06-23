@@ -1,11 +1,11 @@
 package zoo;
 
 public class Animal {
-	public Animal(String type, String name, String crying) {
-		this.type = type;
-		this.name = name;
-		this.crying = crying;
-	}
+//	public Animal(String type, String name, String crying) {
+//		this.type = type;
+//		this.name = name;
+//		this.crying = crying;
+//	}
 
 	//種別
 	public String type;
